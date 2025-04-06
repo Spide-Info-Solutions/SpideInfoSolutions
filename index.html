@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple SaaS Website</title>
+    <!-- START - Linking the stylesheets -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/style_responsive.css" />
+    <!-- END - Linking the stylesheets -->
+</head>
+<body>
+  <header>
+    <h1>Spide Info Solutions</h1>
+    <p>Your go-to solution for business automation and service</p>
+  </header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section id="home" class="container">
+    <h2>Welcome to S.I.S</h2>
+    <p>Streamline your operations with our all-in-one software solution built to simplify, scale and secure your business processes.</p>
+  </section>
+  <section id="about" class="container">
+    <h2>About Us</h2>
+    <p>We are a passionate team of tech enthusiasts who believe in simplifying workflows. Our software is built with scalability, performance and usability in mind.</p>
+  </section>
+  <section id="testimonials" class="container" hidden>
+    <h2>What Our Clients Say</h2>
+    <div class="testimonial">
+      <p>"This SaaS product transformed the way we operate. Super easy to use and efficient!" – Jane D.</p>
+    </div>
+    <div class="testimonial">
+      <p>"Fantastic support and robust features. Highly recommended!" – Michael B.</p>
+    </div>
+  </section>
+  <section id="contact" class="container">
+    <h2>Reach Out to Us</h2>
+    <form id="contactForm" action="https://formspree.io/f/xyzebykb" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="formMessage">We'll get back to you shortly!</p>
+  </section>
+  <!-- <section id="contact" class="container">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="formMessage"></p>
+  </section> -->
+  <footer>
+    <p>&copy; 2025 Awesome SaaS. All rights reserved.</p>
+  </footer>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
